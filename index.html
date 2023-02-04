@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr" id="html">
+    <head>
+        <meta charset="utf-8">
+        <title id="title"></title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <!-- <link rel="apple-touch-icon" href="images/app_icon_152.png"> -->
+        <meta name="description" content="Maquillage à domicile sur la côte d'opale">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
+        <meta name="theme-color" content="#007acc"/>
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    </head>
+
+    <body id="body">
+        
+        <header class="header"><img class="header__logo" src="./medias/images/logo_on_dark.png" /></header>
+
+        <div id="main" class="main">
+            <!-- Your main content is here-->
+            <div class="category category--main category--prestations">
+                <div class="category__sub-div" onclick="openPageFromHome('prestations')">
+                    <div id="prestationsColorDiv" class="category__sub-div__colored-sub-div sub-div--prestations"></div>
+                    <div id="prestationsTextDiv" class="category__sub-div__sub-div">
+                        <span>PRESTATIONS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category category--portfolio">
+                <div class="category__sub-div" onclick="openPageFromHome('portfolio')">
+                    <div id="portfolioColorDiv" class="category__sub-div__colored-sub-div  sub-div--portfolio"></div>
+                    <div id="portfolioTextDiv" class="category__sub-div__sub-div">
+                        <span>PORTFOLIO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category category--contact">
+                <div class="category__sub-div" onclick="openPageFromHome('contact')">
+                    <div id="contactColorDiv" class="category__sub-div__colored-sub-div  sub-div--contact"></div>
+                    <div id="contactTextDiv" class="category__sub-div__sub-div">
+                        <span>CONTACT</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- <script src="js/main.js"></script> -->
+        <script type="module" src="JS/app.js"></script>
+
+    </body>
+</html>

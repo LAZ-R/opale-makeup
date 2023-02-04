@@ -1,0 +1,331 @@
+@import url("./variables.css");
+@import url("./fonts.css");
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Inter', sans-serif; */
+    color: var(--font-color-default);
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
+    width: 100%;
+    background-color: var(--palette-3);
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: #0f0e0d;
+}
+
+.header__logo {
+    width: 70%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: var(--palette-4);
+    padding: 0 var(--horizontal-padding);
+}
+.category::before {
+    position: absolute;
+    content: '';
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+}
+
+.category--main {
+    height: 50%;
+}
+
+.category--prestations {
+    background-image: url('https://st4.depositphotos.com/16122460/26783/i/450/depositphotos_267839490-stock-photo-luxury-makeup-products-and-accessories.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category--portfolio {
+    background-image: url('https://www.cossetmoi.com/wp-content/uploads/2017/10/Depositphotos_177915112_l-2015.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category--contact {
+    background-image: url('https://thumbs.dreamstime.com/b/t%C3%A9l%C3%A9phone-portable-sur-un-journal-intime-ou-un-journal-ouvert-45047944.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category__sub-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 11px 2px #0000006c;
+    border-radius: 10px;
+}
+
+.category__sub-div__colored-sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    background-color: var(--palette-1);
+    border-radius: 10px 0 0 10px;
+}
+.sub-div--prestations {
+    background-color: var(--palette-3);
+}
+.sub-div--portfolio {
+    background-color: var(--palette-2);
+}
+.sub-div--contact {
+    background-color: var(--palette-1);
+}
+.animate--colored-div {
+    animation: home-colored-div-animation .5s forwards;
+}
+
+@keyframes home-colored-div-animation {
+    0% {   
+        border-radius: 10px 0 0 10px;
+        width: 30%;
+    }
+
+    100% {
+        border-radius: 10px 10px 10px 10px;
+        width: 100%;
+    }
+}
+
+.category__sub-div__sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    height: 100%;
+    padding: 10px 15px;
+    /* background-color: #000000; */
+    border-radius: 0 10px 10px 0;
+    
+    font-family: rakesly-ultra-light;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.animate--text-div {
+    animation: home-text-div-animation .5s forwards;
+}
+
+@keyframes home-text-div-animation {
+    0% {
+        font-size: 25px;
+        opacity: 1;
+        padding: 10px 15px;
+        width: 70%;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        font-size: 0px;
+        opacity: 0;
+        padding: 0;
+        width: 0%;
+    }
+}
+
+/* -------------------------------------------------------------- */
+/* Prestations */
+/* -------------------------------------------------------------- */
+
+.prestations-group-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+.prestation-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    box-shadow: 0px 5px 11px 2px #0000006c;
+}
+
+.prestation-tile__image {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-position: right;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+.prestation-tile__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    height: 100%;
+    background-color: #0f0e0d;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 15px;
+}
+
+h1, h2 {
+    color: var(--palette-1);
+}
+
+h3 {
+    color: var(--font-color-accent);
+}
+
+h1, h2, h3 {
+    font-family: rakesly-extra-light;
+}
+h1 {
+    margin: 10px;
+    letter-spacing: 1px;
+}
+h2 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+h3 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+h4, h5, h6 {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.prestation-description {
+    font-size: 16px;
+}
+.prestation-duration {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.prestation-price {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.prestation-option {
+    font-size: 16px;
+}
+
+/* span, p, li {
+    font-size: 16px;
+} */
+
+ul {
+    --margin-left: 20px;
+    margin-bottom: 10px;
+    width: calc(100% - var(--margin-left));
+    margin-left: 20px;
+}
+ul:last-child {
+    margin-bottom: 0;
+}
+
+li, ul > li > ul {
+    margin-bottom: 3px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.logo-text {
+    align-self: center;
+    font-size: 100px;
+    font-family: rakesly-ultra-light;
+    margin-bottom: 80px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.prestation-screen-prestation-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 3px solid var(--accent);
+    margin-bottom: 50px;
+}
+.prestation-screen-prestation-group:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.prestation-screen-prestation-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    /* background-color: var(--palette-4); */
+    padding: 10px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--accent);
+}
+.prestation-screen-prestation-tile:last-child {
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
