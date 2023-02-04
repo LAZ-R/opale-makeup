@@ -9,7 +9,7 @@ export const PRESTATIONS = [
                 duration: 30,
                 price: 15,
                 option: null,
-                picture: 'jour.JPG'
+                picture: 'jour'
             },
             {
                 name: 'Maquillage jour',
@@ -18,7 +18,7 @@ export const PRESTATIONS = [
                 duration: 40,
                 price: 20,
                 option: null,
-                picture: 'jour.JPG'
+                picture: 'jour'
             },
             {
                 name: 'Maquillage soirée',
@@ -27,7 +27,7 @@ export const PRESTATIONS = [
                 duration: 45,
                 price: 30,
                 option: '+ 5€ pour faux-cils (implants ou franges)',
-                picture: 'soiree.JPG'
+                picture: 'soiree'
             },
             {
                 name: 'Maquillage anniversaire enfant',
@@ -36,7 +36,7 @@ export const PRESTATIONS = [
                 duration: 45,
                 price: 20,
                 option: '+ 8€ par enfant supplémentaire',
-                picture: 'enfants.JPG'
+                picture: 'enfants'
             },
             {
                 name: 'Maquillage évènementiel',
@@ -45,7 +45,7 @@ export const PRESTATIONS = [
                 duration: null,
                 price: null,
                 option: 'Durée et tarif selon demande',
-                picture: 'evenementiel.JPG'
+                picture: 'evenementiel'
             },
         ]
     },
@@ -53,76 +53,76 @@ export const PRESTATIONS = [
         category_name: 'Mariage',
         prestations: [
             {
-                name: 'Maquillage mariée',
-                version: 'Naturel (avec un essai préalable)',
+                name: 'Maquillage mariée + un essai',
+                version: 'Naturel',
                 description: 'Teint, sourcils, yeux, faux-cils (implants), lèvres',
                 duration: 60,
                 price: 70,
                 option: null,
-                picture: 'mariee-naturel.JPG'
+                picture: 'mariee-naturel'
             },
             {
-                name: 'Maquillage mariée',
-                version: 'Sophistiqué (avec un essai préalable)',
+                name: 'Maquillage mariée + un essai',
+                version: 'Sophistiqué',
                 description: 'Teint, contouring, sourcils, yeux, faux-cils (implants ou franges), lèvres',
                 duration: 75,
                 price: 90,
                 option: null,
-                picture: 'mariee-sophistique.JPG'
+                picture: 'mariee-sophistique'
             },
             {
-                name: 'Forfait mariée',
-                version: 'Maquillage naturel + coiffure lâchée (avec un essai préalable)',
+                name: 'Forfait mariée + un essai',
+                version: 'Maquillage naturel + coiffure lâchée',
                 description: '',
                 duration: 105,
                 price: 95,
                 option: '+ 5€ si déco cheveux',
-                picture: 'mariee-cheveux-attaches.JPG'
+                picture: 'mariee-cheveux-attaches'
             },
             {
-                name: 'Forfait mariée',
-                version: 'Maquillage naturel + coiffure attachée (avec un essai préalable)',
+                name: 'Forfait mariée + un essai',
+                version: 'Maquillage naturel + coiffure attachée',
                 description: '',
                 duration: 135,
                 price: 105,
                 option: '+ 5€ si déco cheveux',
-                picture: 'mariee-cheveux-attaches.JPG'
+                picture: 'mariee-cheveux-attaches'
             },
             {
-                name: 'Forfait mariée',
-                version: 'Maquillage sophistiqué + coiffure lâchée (avec un essai préalable)',
+                name: 'Forfait mariée + un essai',
+                version: 'Maquillage sophistiqué + coiffure lâchée',
                 description: '',
                 duration: 120,
                 price: 115,
                 option: '+ 5€ si déco cheveux',
-                picture: 'mariee-cheveux-attaches.JPG'
+                picture: 'mariee-cheveux-attaches'
             },
             {
-                name: 'Forfait mariée',
-                version: 'Maquillage sophistiqué + coiffure attachée (avec un essai préalable)',
+                name: 'Forfait mariée + un essai',
+                version: 'Maquillage sophistiqué + coiffure attachée',
                 description: '',
                 duration: 165,
                 price: 125,
                 option: '+ 5€ si déco cheveux',
-                picture: 'mariee-cheveux-attaches.JPG'
+                picture: 'mariee-cheveux-attaches'
             },
             {
                 name: 'Maquillage invitée',
-                version: null,
-                description: 'Maquillage naturel',
+                version: 'Maquillage naturel',
+                description: 'Teint, yeux, lèvres',
                 duration: 45,
                 price: 25,
                 option: null,
-                picture: 'jour.JPG'
+                picture: 'jour'
             },
             {
                 name: 'Forfait invitée',
-                version: null,
-                description: 'Maquillage naturel + chignon classique "mariage"',
+                version: 'Maquillage naturel + chignon classique "mariage"',
+                description: null,
                 duration: 90,
                 price: 45,
                 option: null,
-                picture: 'forfait-invites.JPG'
+                picture: 'forfait-invites'
             },
         ]
     },
@@ -136,7 +136,7 @@ export const PRESTATIONS = [
                 duration: 60,
                 price: 30,
                 option: null,
-                picture: ''
+                picture: 'https://static.wixstatic.com/media/11062b_6cb5f8f1a81941d187804a376d4a321d~mv2.jpg/v1/crop/x_1164,y_0,w_2672,h_3333/fill/w_640,h_738,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Application%20de%20fard%20%C3%A0%20paupi%C3%A8res.jpg'
             },
             {
                 name: 'Cours individuel',
@@ -145,7 +145,7 @@ export const PRESTATIONS = [
                 duration: 75,
                 price: 35,
                 option: null,
-                picture: ''
+                picture: 'https://www.shoppingaddict.fr/blogs/media/articles/articles/cours-de-maquillage-en-ligne.jpg'
             },
             {
                 name: 'Cours collectif',
@@ -154,7 +154,7 @@ export const PRESTATIONS = [
                 duration: 120,
                 price: 75,
                 option: '+ 20€ par participant supplémentaire',
-                picture: ''
+                picture: 'https://i0.wp.com/www.ifdmrelooking.com/wp-content/uploads/2020/04/atelier-auto-maquillage-scaled.jpg?fit=2560%2C1703&ssl=1'
             },
         ]
     },
