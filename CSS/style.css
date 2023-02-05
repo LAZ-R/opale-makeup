@@ -89,9 +89,8 @@ body {
 }
 
 .main-intro {
-    font-family: rakesly-ultra-light;
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -292,16 +291,11 @@ body {
     padding: 10px 15px;
 }
 
-h1, h2 {
-    color: var(--palette-1);
-}
-
-h3 {
-    color: var(--font-color-accent);
-}
-
 h1, h2, h3 {
     font-family: rakesly-extra-light;
+}
+h1, h2 {
+    color: var(--palette-1);
 }
 h1 {
     margin: 10px;
@@ -313,6 +307,9 @@ h2 {
     letter-spacing: 2px;
 }
 h3 {
+    font-size: 25px;
+    font-family: rakesly-ultra-light;
+    color: var(--font-color-accent);
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
