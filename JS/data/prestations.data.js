@@ -11,7 +11,7 @@ export const PRESTATIONS = [
                 price: 15,
                 option: null,
                 pictures: [
-                    'jour', 'jour', 'jour', 'jour', 'jour', 'jour', 'jour', 'jour', 'jour'
+                    'jour', 'jour', 'jour', 'jour',
                 ] 
             },
             {
@@ -23,7 +23,7 @@ export const PRESTATIONS = [
                 price: 20,
                 option: null,
                 pictures: [
-                    'jour'
+                    'jour', 'jour', 'jour', 'jour',
                 ] 
             },
             {
@@ -35,19 +35,19 @@ export const PRESTATIONS = [
                 price: 30,
                 option: '+ 5€ pour faux-cils<br>(implants ou franges)',
                 pictures: [
-                    'soiree'
+                    'soiree', 'soiree', 'soiree', 'soiree',
                 ] 
             },
             {
                 id: 'MAE',
                 name: 'Maquillage anniversaire enfant',
                 version: null,
-                description: '10/15min par enfant, 3 enfants minimum',
+                description: '10/15min par enfant<br>3 enfants minimum',
                 duration: 45,
                 price: 20,
                 option: '+ 8€ par enfant supplémentaire',
                 pictures: [
-                    'enfants'
+                    'enfants', 'enfants', 'enfants', 'enfants',
                 ] 
             },
             {
@@ -59,7 +59,7 @@ export const PRESTATIONS = [
                 price: null,
                 option: 'Durée et tarif selon demande',
                 pictures: [
-                    'evenementiel'
+                    'evenementiel', 'evenementiel', 'evenementiel', 'evenementiel',
                 ] 
             },
         ]
@@ -76,7 +76,7 @@ export const PRESTATIONS = [
                 price: 70,
                 option: null,
                 pictures: [
-                    'mariee-naturel'
+                    'mariee-naturel', 'mariee-naturel', 'mariee-naturel', 'mariee-naturel',
                 ] 
             },
             {
@@ -88,7 +88,7 @@ export const PRESTATIONS = [
                 price: 90,
                 option: null,
                 pictures: [
-                    'mariee-sophistique'
+                    'mariee-sophistique', 'mariee-sophistique', 'mariee-sophistique', 'mariee-sophistique',
                 ] 
             },
             {
@@ -100,7 +100,7 @@ export const PRESTATIONS = [
                 price: 95,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches'
+                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
                 ] 
             },
             {
@@ -112,7 +112,7 @@ export const PRESTATIONS = [
                 price: 105,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches'
+                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
                 ] 
             },
             {
@@ -124,7 +124,7 @@ export const PRESTATIONS = [
                 price: 115,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches'
+                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
                 ] 
             },
             {
@@ -136,7 +136,7 @@ export const PRESTATIONS = [
                 price: 125,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches'
+                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
                 ] 
             },
             {
@@ -148,7 +148,7 @@ export const PRESTATIONS = [
                 price: 25,
                 option: null,
                 pictures: [
-                    'jour'
+                    'jour', 'jour', 'jour', 'jour',
                 ] 
             },
             {
@@ -160,7 +160,7 @@ export const PRESTATIONS = [
                 price: 45,
                 option: null,
                 pictures: [
-                    'forfait-invites'
+                    'forfait-invites', 'forfait-invites', 'forfait-invites', 'forfait-invites',
                 ] 
             },
         ]
@@ -177,7 +177,7 @@ export const PRESTATIONS = [
                 price: 30,
                 option: null,
                 pictures: [
-                    'https://static.wixstatic.com/media/11062b_6cb5f8f1a81941d187804a376d4a321d~mv2.jpg/v1/crop/x_1164,y_0,w_2672,h_3333/fill/w_640,h_738,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Application%20de%20fard%20%C3%A0%20paupi%C3%A8res.jpg'
+                    'cours1', 'cours1', 'cours1', 'cours1',
                 ] 
             },
             {
@@ -189,19 +189,19 @@ export const PRESTATIONS = [
                 price: 35,
                 option: null,
                 pictures: [
-                    'https://www.shoppingaddict.fr/blogs/media/articles/articles/cours-de-maquillage-en-ligne.jpg'
+                    'cours2', 'cours2', 'cours2', 'cours2',
                 ] 
             },
             {
                 id: 'CC',
                 name: 'Cours collectif',
-                version: 'Maquillage jour',
-                description: '3 personnes<br>1ère heure: Démonstration et explications du maquillage sur la moitié du visage du volontaire.<br>2ème heure: Les participants se maquillent eux-mêmes en appliquant les explications, avec l\'aide du maquilleur.',
+                version: null,
+                description: '3 personnes - Maquillage jour<br>1ère heure: Démonstration et explications du maquillage sur la moitié du visage du volontaire.<br>2ème heure: Les participants se maquillent eux-mêmes en appliquant les explications, avec l\'aide du maquilleur.',
                 duration: 120,
                 price: 75,
                 option: '+ 20€ par participant supplémentaire',
                 pictures: [
-                    'https://i0.wp.com/www.ifdmrelooking.com/wp-content/uploads/2020/04/atelier-auto-maquillage-scaled.jpg?fit=2560%2C1703&ssl=1'
+                    'cours3', 'cours3', 'cours3', 'cours3',
                 ] 
             },
         ]

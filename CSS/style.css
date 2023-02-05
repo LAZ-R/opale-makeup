@@ -8,6 +8,7 @@
     /* font-family: 'Inter', sans-serif; */
     color: var(--font-color-default);
     box-sizing: border-box;
+    scroll-behavior: smooth !important;
 }
 
 html,
@@ -325,7 +326,7 @@ h4 {
 }
 
 .prestation-description {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .prestation-dur-price-div {
@@ -377,7 +378,12 @@ h4 {
 }
 
 .prestation-picture {
+    display: flex;
     height: 100%;
+    min-width: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
     /* border-radius: 10px; */
 }
 

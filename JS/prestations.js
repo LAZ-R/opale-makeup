@@ -9,6 +9,21 @@ const handleColorTileClick = (tileID) => {
     const tileColorTile = document.getElementById(tileID + '_colorTile');
     const tileCaretDown = document.getElementById(tileID + '_carretDown');
     if (tile.style.height == '250px' || tile.style.height == '') {
+        // fermer les autres
+        /*
+        PRESTATIONS.forEach(prestationsGroup => {
+            prestationsGroup.prestations.forEach(prestation => {
+                if (prestation.id != tileID) {
+                    const tempTile = document.getElementById(prestation.id);
+                    if (tempTile.style.height == '500px') {
+                        tempTile.style.height = '250px';
+                        document.getElementById(prestation.id + '_carretDown').style.transform = 'rotateZ(0deg)';
+                        document.getElementById(prestation.id + '_colorTile').style.borderRadius = '10px 0 0 10px';
+                    }
+                }
+            })
+        });
+        */
         tile.style.height = '500px';
         tileCaretDown.style.transform = 'rotateZ(180deg)';
         tileColorTile.style.borderRadius = '10px 0 0 0';
@@ -17,6 +32,9 @@ const handleColorTileClick = (tileID) => {
         tileCaretDown.style.transform = 'rotateZ(0deg)';
         tileColorTile.style.borderRadius = '10px 0 0 10px';
     }
+    //setTimeout(() => {
+        window.location = `#${tileID}`
+    //}, 10);
 }
 window.handleColorTileClick = handleColorTileClick;
 
@@ -34,7 +52,7 @@ window.showFullscreenPicture = showFullscreenPicture;
 const getPictureGroup = (pictureGroup) => {
     let toReturn = '';
     pictureGroup.forEach(picture => {
-        toReturn += '<img onclick="showFullscreenPicture(\'' + picture + '\')" class="prestation-picture" src="./medias/images/prestations/' + picture + '.webp" />';
+        toReturn += '<div onclick="showFullscreenPicture(\'' + picture + '\')" class="prestation-picture" style="background-image: url(\'./medias/images/prestations/' + picture + '.webp\');"></div>';
     });
     return toReturn;
 }
@@ -46,7 +64,7 @@ PRESTATIONS.forEach(prestationsGroup => {
     prestationsGroup.prestations.forEach(prestation => {
         const prestationTile = LAZR.DOM.createElement('div', prestation.id , 'prestation-tile', `
         <div class="small-tile-part">
-            <div id="${prestation.id}_colorTile" onclick="handleColorTileClick('${prestation.id}')" class="${
+            <div href="#${prestation.id}" id="${prestation.id}_colorTile" onclick="handleColorTileClick('${prestation.id}')" class="${
                 prestationsGroup.category_name == 'Maquillages'
                 ? 'prestation-tile__color --palette-3'
                 : prestationsGroup.category_name == 'Mariage'
