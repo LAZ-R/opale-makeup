@@ -14,7 +14,7 @@ const socialTile = LAZR.DOM.createElement('div', 'contactTileSocial', 'contact-t
     <div class="contact-tile__colorTile --palette-3">
         <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" />
     </div>
-    <a href="https://www.instagram.com/opalemakeup/?hl=fr" class="contact-info" style="font-size: 25px;">@opalemakeup</a>
+    <a href="https://www.instagram.com/opale_make_up/?hl=fr" class="contact-info" style="font-size: 25px;">@opale_make_up</a>
 `);
 
 const mailTile = LAZR.DOM.createElement('div', 'contactTileMail', 'contact-tile', `
