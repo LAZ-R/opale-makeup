@@ -172,7 +172,7 @@ export const PRESTATIONS = [
                 id: 'CIMJ',
                 name: 'Cours individuel',
                 version: 'Maquillage jour',
-                description: 'Explication et démonstration des étapes sur un côté du visage, reproduction par le participant sur l\'autre côté',
+                description: 'Explication et démonstration des étapes sur un côté du visage, reproduction par le participant sur l\'autre côté à chaque étape.',
                 duration: 60,
                 price: 30,
                 option: null,
