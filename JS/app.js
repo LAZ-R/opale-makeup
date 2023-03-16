@@ -23,3 +23,10 @@ const goToHome = () => {
     window.location = './index.html';
 }
 window.goToHome = goToHome;
+
+const prestationsColorDiv = document.getElementById('prestationsColorDiv');
+const contactColorDiv = document.getElementById('contactColorDiv');
+
+// TODO : seulement sur page accueil
+prestationsColorDiv.innerHTML = `<img id="" src="./medias/images/GUI/plus.svg" class="colored-sub-div_plus-icon" style="filter: ${LAZR.CSS.getRootColorFilterValue('--font-color-default')}" />`
+contactColorDiv.innerHTML = `<img id="" src="./medias/images/GUI/plus.svg" class="colored-sub-div_plus-icon" style="filter: ${LAZR.CSS.getRootColorFilterValue('--font-color-default')}" />`

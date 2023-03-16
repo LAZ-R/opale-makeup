@@ -11,7 +11,7 @@ export const PRESTATIONS = [
                 price: 15,
                 option: null,
                 pictures: [
-                    'jour', 'jour', 'jour', 'jour',
+                    'jour', 'jour-2', 'jour-3', 'jour-4',
                 ] 
             },
             {
@@ -23,7 +23,7 @@ export const PRESTATIONS = [
                 price: 20,
                 option: null,
                 pictures: [
-                    'jour', 'jour', 'jour', 'jour',
+                    'jour-sophistique', 'jour-sophistique-2', 'jour-sophistique-3', 'jour-sophistique-4',
                 ] 
             },
             {
@@ -35,7 +35,7 @@ export const PRESTATIONS = [
                 price: 30,
                 option: '+ 5€ pour faux-cils<br>(implants ou franges)',
                 pictures: [
-                    'soiree', 'soiree', 'soiree', 'soiree',
+                    'soiree-2', 'soiree', 'soiree-3', 'soiree-4',
                 ] 
             },
             {
@@ -47,7 +47,14 @@ export const PRESTATIONS = [
                 price: 20,
                 option: '+ 8€ par enfant supplémentaire',
                 pictures: [
-                    'enfants', 'enfants', 'enfants', 'enfants',
+                    'enfants',
+                    'enfants-2',
+                    'enfants-3',
+                    'enfants-4',
+                    'enfants-5',
+                    'enfants-6',
+                    'enfants-7',
+                    'enfants-8',
                 ] 
             },
             {
@@ -59,7 +66,7 @@ export const PRESTATIONS = [
                 price: null,
                 option: 'Durée et tarif selon demande',
                 pictures: [
-                    'evenementiel', 'evenementiel', 'evenementiel', 'evenementiel',
+                    'evenementiel', 'evenementiel-2', 'evenementiel-3',
                 ] 
             },
         ]
@@ -76,7 +83,7 @@ export const PRESTATIONS = [
                 price: 70,
                 option: null,
                 pictures: [
-                    'mariee-naturel', 'mariee-naturel', 'mariee-naturel', 'mariee-naturel',
+                    'mariee-naturel', 'mariee-naturel-2', 'mariee-naturel-3', 'mariee-naturel-4',
                 ] 
             },
             {
@@ -88,7 +95,7 @@ export const PRESTATIONS = [
                 price: 90,
                 option: null,
                 pictures: [
-                    'mariee-sophistique', 'mariee-sophistique', 'mariee-sophistique', 'mariee-sophistique',
+                    'mariage-sophistique', 'mariage-sophistique-2', 'mariage-sophistique-3', 'mariage-sophistique-4','mariage-sophistique-5',
                 ] 
             },
             {
@@ -100,7 +107,7 @@ export const PRESTATIONS = [
                 price: 95,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
+                    'laches', 'laches-3', 'laches-5',
                 ] 
             },
             {
@@ -112,7 +119,7 @@ export const PRESTATIONS = [
                 price: 105,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
+                    'attaches', 'attaches-5', 'attaches-3', 'attaches-7',
                 ] 
             },
             {
@@ -124,7 +131,7 @@ export const PRESTATIONS = [
                 price: 115,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
+                    'laches-2', 'laches-4', 'laches-6',
                 ] 
             },
             {
@@ -136,7 +143,7 @@ export const PRESTATIONS = [
                 price: 125,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
-                    'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches', 'mariee-cheveux-attaches',
+                    'attaches-6', 'attaches-4', 'attaches-2', 'attaches-8',
                 ] 
             },
             {
