@@ -1,5 +1,10 @@
 import  * as LAZR from './lazR/lazR.js';
 
+const titleElement = document.getElementById('title');
+titleElement.innerHTML = `Opale Makeup - Contact`;
+
+LAZR.DOM.setViewportSize();
+
 const main = document.getElementById('main');
 main.classList.add('main--contact');
 
@@ -31,9 +36,12 @@ const facebookTile = LAZR.DOM.createElement('div', 'contactTileFacebook', 'conta
     <a href="https://www.facebook.com/profile.php?id=100090012348692" class="contact-info" style="font-size: 20px;">Opale MakeUp</a>
 `);
 
-
-
 main.appendChild(phoneTile);
 main.appendChild(mailTile);
 main.appendChild(instaTile);
 main.appendChild(facebookTile);
+
+const goToHome = () => {
+    window.location = './index.html';
+}
+window.goToHome = goToHome;

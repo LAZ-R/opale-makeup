@@ -1,6 +1,11 @@
 import { PRESTATIONS } from './data/prestations.data.js';
 import  * as LAZR from './lazR/lazR.js';
 
+const titleElement = document.getElementById('title');
+titleElement.innerHTML = `Opale Makeup - Prestations`;
+
+LAZR.DOM.setViewportSize();
+
 const main = document.getElementById('main');
 main.classList.add('main--prestations');
 
@@ -93,5 +98,7 @@ PRESTATIONS.forEach(prestationsGroup => {
     main.appendChild(prestationsGroupTile);
 });
 
-
-
+const goToHome = () => {
+    window.location = './index.html';
+}
+window.goToHome = goToHome;

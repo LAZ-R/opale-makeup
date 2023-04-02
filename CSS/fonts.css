@@ -1,20 +1,25 @@
+/* ==========================
+ Rakesly
+===========================*/
+
+@font-face { font-family: "rakesly-ultra-light"; src: url("../medias/fonts/rakesly/01-rakesly-ultra-light.woff") format("woff"); font-display: swap; }
+@font-face { font-family: "rakesly-extra-light"; src: url("../medias/fonts/rakesly/02-rakesly-extra-light.woff") format("woff"); font-display: swap; }
+
+/* ==========================
+ Inter
+===========================*/
+
+@font-face { font-family: "inter-var"; src: url("../medias/fonts/inter/Inter.var.woff2") format("woff2"); }
+@font-face { font-family: "inter-var-italic"; src: url("../medias/fonts/inter/Inter-italic.var.woff2") format("woff2"); }
+
+/* ---------------------------------------------------------------------- */
+
 :root { 
-    font-family: 'Inter', sans-serif;
-    font-weight: 200;
+  font-family: 'inter-var', sans-serif;
+  font-weight: 200;
 }
 @supports (font-variation-settings: normal) {
   :root { 
-    font-family: 'Inter var', sans-serif;
+    font-family: 'inter-var', sans-serif;
+  }
 }
-}
-
-/* ==========================
- rakesly
-===========================*/
-
-@font-face { font-family: "rakesly-ultra-light"; src: url("../medias/fonts/rakesly/01-rakesly-ultra-light.woff") format("woff"); }
-@font-face { font-family: "rakesly-extra-light"; src: url("../medias/fonts/rakesly/02-rakesly-extra-light.woff") format("woff"); }
-@font-face { font-family: "rakesly-light"; src: url("../medias/fonts/rakesly/03-rakesly-light.woff") format("woff"); }
-@font-face { font-family: "rakesly-book"; src: url("../medias/fonts/rakesly/04-rakesly-book.woff") format("woff"); }
-@font-face { font-family: "rakesly-regular"; src: url("../medias/fonts/rakesly/05-rakesly-regular.woff") format("woff"); }
-@font-face { font-family: "rakesly-bold"; src: url("../medias/fonts/rakesly/06-rakesly-bold.woff") format("woff"); }

@@ -155,7 +155,7 @@ export const PRESTATIONS = [
                 price: 25,
                 option: null,
                 pictures: [
-                    'jour', 'jour', 'jour', 'jour',
+                    'maquillage-invites-1', 'maquillage-invites-2', 'maquillage-invites-3',
                 ] 
             },
             {
@@ -167,7 +167,7 @@ export const PRESTATIONS = [
                 price: 45,
                 option: null,
                 pictures: [
-                    'forfait-invites', 'forfait-invites', 'forfait-invites', 'forfait-invites',
+                    'coiffure-invites-1', 'coiffure-invites-2',
                 ] 
             },
         ]

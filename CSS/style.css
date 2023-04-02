@@ -5,7 +5,6 @@
     position: relative;
     padding: 0;
     margin: 0;
-    /* font-family: 'Inter', sans-serif; */
     color: var(--font-color-default);
     box-sizing: border-box;
     scroll-behavior: smooth !important;
@@ -49,8 +48,7 @@ body {
 }
 
 .main--prestations {
-    /* background-image: url('https://st4.depositphotos.com/16122460/26783/i/450/depositphotos_267839490-stock-photo-luxury-makeup-products-and-accessories.jpg'); */
-    background-image: url('../medias/images/prestations.jpg');
+    background-image: url('../medias/images/prestations.webp');
     background-size: 400%;
     background-position: left 20% bottom 20%;
     background-repeat: no-repeat;
@@ -65,8 +63,7 @@ body {
 }
 
 .main--contact {
-    /* background-image: url('https://thumbs.dreamstime.com/b/t%C3%A9l%C3%A9phone-portable-sur-un-journal-intime-ou-un-journal-ouvert-45047944.jpg'); */
-    background-image: url('../medias/images/contact.jpg');
+    background-image: url('../medias/images/contact.webp');
     background-size: cover;
     background-position: center;
 }
@@ -120,16 +117,14 @@ body {
 }
 
 .category--prestations {
-    /* background-image: url('https://st4.depositphotos.com/16122460/26783/i/450/depositphotos_267839490-stock-photo-luxury-makeup-products-and-accessories.jpg'); */
-    background-image: url('../medias/images/prestations.jpg');
+    background-image: url('../medias/images/prestations.webp');
     background-size: 275%;
     background-position: right 40% bottom 1%;
     background-repeat: no-repeat;
 }
 
 .category--contact {
-    /* background-image: url('https://thumbs.dreamstime.com/b/t%C3%A9l%C3%A9phone-portable-sur-un-journal-intime-ou-un-journal-ouvert-45047944.jpg'); */
-    background-image: url('../medias/images/contact.jpg');
+    background-image: url('../medias/images/contact.webp');
     background-size: 150%;
     background-position: left 20% top 30%;
     background-repeat: no-repeat;
@@ -196,12 +191,21 @@ body {
     width: 70%;
     height: 100%;
     padding: 10px 15px;
-    /* background-color: #000000; */
     border-radius: 0 10px 10px 0;
-    
+}
+
+.category__sub-div__sub-div span {
     font-family: rakesly-ultra-light;
     font-size: 25px;
     letter-spacing: 2px;
+}
+
+.category__sub-div__sub-div p {
+    margin-top: 1vh;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 48px;
 }
 
 .animate--text-div {
@@ -388,8 +392,6 @@ h4 {
     width: 150px;
     background-position: center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* border-radius: 10px; */
 }
 .prestation-picture::before {
     content: '';
