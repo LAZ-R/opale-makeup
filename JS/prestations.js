@@ -75,7 +75,7 @@ PRESTATIONS.forEach(prestationsGroup => {
                 : prestationsGroup.category_name == 'Mariage'
                     ? 'prestation-tile__color --palette-2'
                     : 'prestation-tile__color --palette-1'}">
-                <img id="${prestation.id}_carretDown" src="./medias/images/GUI/caret-down.svg" class="color-tile__down-arrow" style="filter: ${LAZR.CSS.getRootColorFilterValue('--font-color-default')}" />
+                <img id="${prestation.id}_carretDown" src="./medias/images/GUI/caret-down.svg" alt="Pointe de flèche, pointant vers le bas" class="color-tile__down-arrow" style="filter: ${LAZR.CSS.getRootColorFilterValue('--font-color-default')}" />
             </div>
             
             <div class="prestation-tile__infos">
