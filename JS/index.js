@@ -1,7 +1,7 @@
 import  * as LAZR from './lazR/lazR.js';
 
 const titleElement = document.getElementById('title');
-titleElement.innerHTML = `Opale Makeup`;
+titleElement.innerHTML = `Opale Makeup - Maquillage professionnel à domicile - Calais`;
 
 LAZR.DOM.setViewportSize();
 

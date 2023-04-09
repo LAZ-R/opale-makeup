@@ -47,35 +47,6 @@ body {
     overflow-y: scroll;
 }
 
-.main--prestations {
-    background-image: url('../medias/images/prestations.webp');
-    background-size: 400%;
-    background-position: left 20% bottom 20%;
-    background-repeat: no-repeat;
-}
-.main--prestations::before {
-    content: '';
-    position: fixed;
-    background-color: #000000;
-    width: 100%;
-    height: 100%;
-    opacity: var(--app-background-black-opacity);
-}
-
-.main--contact {
-    background-image: url('../medias/images/contact.webp');
-    background-size: cover;
-    background-position: center;
-}
-.main--contact::before {
-    content: '';
-    position: fixed;
-    background-color: #000000;
-    width: 100%;
-    height: 100%;
-    opacity: var(--app-background-black-opacity);
-}
-
 /* -------------------- ACCUEIL --------------------------- */
 
 .main-intro-area {
@@ -94,11 +65,18 @@ body {
     text-align: center;
 }
 
+.categories-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+}
+
 .category {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 37%;
     width: 100%;
     background-color: var(--palette-4);
     padding: 0 var(--horizontal-padding);
@@ -113,7 +91,7 @@ body {
 }
 
 .category--main {
-    height: 45%;
+    height: 63%;
 }
 
 .category--prestations {
@@ -208,6 +186,11 @@ body {
     line-height: 48px;
 }
 
+.category__sub-div__sub-div .contact-sub-div__p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
 .animate--text-div {
     animation: home-text-div-animation .5s forwards;
 }
@@ -235,6 +218,21 @@ body {
 /* -------------------------------------------------------------- */
 /* Prestations */
 /* -------------------------------------------------------------- */
+
+.main--prestations {
+    background-image: url('../medias/images/prestations.webp');
+    background-size: 400%;
+    background-position: left 20% bottom 20%;
+    background-repeat: no-repeat;
+}
+.main--prestations::before {
+    content: '';
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: var(--app-background-black-opacity);
+}
 
 .prestations-group-tile {
     display: flex;
@@ -429,6 +427,20 @@ h4 {
 
 /* ------------------------------------------------------------------------- */
 
+.main--contact {
+    background-image: url('../medias/images/contact.webp');
+    background-size: cover;
+    background-position: center;
+}
+.main--contact::before {
+    content: '';
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: var(--app-background-black-opacity);
+}
+
 .contact-tile {
     display: flex;
     justify-content: flex-start;
@@ -458,4 +470,206 @@ h4 {
     margin-left: 20px;
     font-size: 14px;
     text-decoration: none;
+}
+
+/* ==========================
+ MEDIA QUERIES
+========================== */
+
+/* Tablets ----------- */
+@media (min-width : 767px) and (max-width : 1279px) {
+    .header__logo {
+        width: 50%;
+    }
+
+    .header {
+        height: 15%;
+    }
+
+    .main {
+        height: 85%;
+    }
+
+    /* -------------------- ACCUEIL --------------------------- */
+
+    .main-intro-area {
+        height: 25%;
+    }
+
+    .main-intro {
+        font-size: 22px;
+    }
+
+    .categories-area {
+        height: 75%;
+    }
+
+    .colored-sub-div_plus-icon {
+        border: 3px solid #ffffff;
+        width: 50px;
+        height: 50px;
+    }
+
+    .category__sub-div__sub-div span {
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    
+    .category__sub-div__sub-div p {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    
+    .category__sub-div__sub-div .contact-sub-div__p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+/* Laptops ----------- */
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .header__logo {
+        width: 20%;
+    }
+
+    .header {
+        height: 15%;
+    }
+
+    .main {
+        height: 85%;
+    }
+
+    /* -------------------- ACCUEIL --------------------------- */
+
+    .main-intro-area {
+        height: 25%;
+    }
+
+    .main-intro {
+        font-size: 20px;
+    }
+
+    .categories-area {
+        flex-direction: row;
+        height: 75%;
+    }
+
+    .category {
+        height: 100%;
+        width: 40%;
+        padding: 0;
+    }
+    .category--main {
+        height: 100%;
+        width: 60%;
+    }
+
+    .category--contact {
+        background-image: url('../medias/images/contact.webp');
+        background-size: cover;
+        background-position: left 20% top 30%;
+        background-repeat: no-repeat;
+    }
+
+    .category__sub-div {
+        width: 70%;
+        height: 70%;
+        cursor: pointer;
+    }
+
+    .colored-sub-div_plus-icon {
+        border: 3px solid #ffffff;
+        width: 50px;
+        height: 50px;
+    }
+
+    .category__sub-div__sub-div span {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .category__sub-div__sub-div p {
+        font-size: 18px;
+        line-height: 55px;
+    }
+    
+    .category__sub-div__sub-div .contact-sub-div__p {
+        font-size: 18px;
+        line-height: 55px;
+    }
+}
+
+/* Desktops ----------- */
+@media (min-width: 1920px) {
+    .header__logo {
+        width: 20%;
+    }
+
+    .header {
+        height: 15%;
+    }
+
+    .main {
+        height: 85%;
+    }
+
+    /* -------------------- ACCUEIL --------------------------- */
+
+    .main-intro-area {
+        height: 25%;
+    }
+
+    .main-intro {
+        font-size: 20px;
+    }
+
+    .categories-area {
+        flex-direction: row;
+        height: 75%;
+    }
+
+    .category {
+        height: 100%;
+        width: 40%;
+        padding: 0;
+    }
+    .category--main {
+        height: 100%;
+        width: 60%;
+    }
+
+    .category--contact {
+        background-image: url('../medias/images/contact.webp');
+        background-size: cover;
+        background-position: left 20% top 30%;
+        background-repeat: no-repeat;
+    }
+
+    .category__sub-div {
+        width: 70%;
+        height: 70%;
+        cursor: pointer;
+    }
+
+    .colored-sub-div_plus-icon {
+        border: 3px solid #ffffff;
+        width: 50px;
+        height: 50px;
+    }
+
+    .category__sub-div__sub-div span {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .category__sub-div__sub-div p {
+        font-size: 18px;
+        line-height: 55px;
+    }
+    
+    .category__sub-div__sub-div .contact-sub-div__p {
+        font-size: 18px;
+        line-height: 55px;
+    }
 }
