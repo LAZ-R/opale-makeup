@@ -83,7 +83,7 @@ PRESTATIONS.forEach(prestationsGroup => {
                 <h4>${prestation.version != null ? prestation.version : ''}</h4>
                 <p class="prestation-description">${prestation.description != null ? prestation.description : ''}</p>
                 <div class="prestation-dur-price-div">
-                    <span class="prestation-duration">${prestation.duration != null ? prestation.duration + 'min' : ''}</span>
+                    <!-- <span class="prestation-duration">${prestation.duration != null ? prestation.duration + 'min' : ''}</span> -->
                     <span class="prestation-price">${prestation.price != null ? prestation.price + '<span class="prestation-currency">€</span>' : ''}</span>
                 </div>
                 

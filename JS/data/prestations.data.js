@@ -8,7 +8,7 @@ export const PRESTATIONS = [
                 version: 'Naturel',
                 description: 'Teint, yeux, lèvres',
                 duration: 30,
-                price: 15,
+                price: 18,
                 option: null,
                 pictures: [
                     'jour', 'jour-2', 'jour-3', 'jour-4',
@@ -20,7 +20,7 @@ export const PRESTATIONS = [
                 version: 'Sophistiqué',
                 description: 'Teint, sourcils, yeux, lèvres',
                 duration: 40,
-                price: 20,
+                price: 23,
                 option: null,
                 pictures: [
                     'jour-sophistique', 'jour-sophistique-2', 'jour-sophistique-3', 'jour-sophistique-4',
@@ -32,7 +32,7 @@ export const PRESTATIONS = [
                 version: null,
                 description: 'Teint, contouring, sourcils, yeux, lèvres',
                 duration: 45,
-                price: 30,
+                price: 33,
                 option: '+ 5€ pour faux-cils<br>(implants ou franges)',
                 pictures: [
                     'soiree-2', 'soiree', 'soiree-3', 'soiree-4',
@@ -42,7 +42,7 @@ export const PRESTATIONS = [
                 id: 'MAE',
                 name: 'Maquillage anniversaire enfant',
                 version: null,
-                description: '10/15min par enfant<br>3 enfants minimum',
+                description: '10min par enfant<br>3 enfants minimum',
                 duration: 45,
                 price: 20,
                 option: '+ 8€ par enfant supplémentaire',
@@ -80,7 +80,7 @@ export const PRESTATIONS = [
                 version: 'Naturel',
                 description: 'Teint, sourcils, yeux, faux-cils (implants), lèvres',
                 duration: 60,
-                price: 70,
+                price: 75,
                 option: null,
                 pictures: [
                     'mariee-naturel', 'mariee-naturel-2', 'mariee-naturel-3', 'mariee-naturel-4',
@@ -92,7 +92,7 @@ export const PRESTATIONS = [
                 version: 'Sophistiqué',
                 description: 'Teint, contouring, sourcils, yeux, faux-cils (implants ou franges), lèvres',
                 duration: 75,
-                price: 90,
+                price: 95,
                 option: null,
                 pictures: [
                     'mariage-sophistique', 'mariage-sophistique-2', 'mariage-sophistique-3', 'mariage-sophistique-4','mariage-sophistique-5',
@@ -104,7 +104,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage naturel + coiffure lâchée',
                 description: '',
                 duration: 105,
-                price: 95,
+                price: 104,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
                     'laches', 'laches-3', 'laches-5',
@@ -116,7 +116,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage naturel + coiffure attachée',
                 description: '',
                 duration: 135,
-                price: 105,
+                price: 114,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
                     'attaches', 'attaches-5', 'attaches-3', 'attaches-7',
@@ -128,7 +128,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage sophistiqué + coiffure lâchée',
                 description: '',
                 duration: 120,
-                price: 115,
+                price: 124,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
                     'laches-2', 'laches-4', 'laches-6',
@@ -140,7 +140,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage sophistiqué + coiffure attachée',
                 description: '',
                 duration: 165,
-                price: 125,
+                price: 134,
                 option: '+ 5€ si déco cheveux',
                 pictures: [
                     'attaches-6', 'attaches-4', 'attaches-2', 'attaches-8',
@@ -152,7 +152,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage naturel',
                 description: 'Teint, yeux, lèvres',
                 duration: 45,
-                price: 25,
+                price: 29,
                 option: null,
                 pictures: [
                     'maquillage-invites-1', 'maquillage-invites-2', 'maquillage-invites-3',
@@ -164,7 +164,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage naturel + chignon classique "mariage"',
                 description: null,
                 duration: 90,
-                price: 45,
+                price: 49,
                 option: null,
                 pictures: [
                     'coiffure-invites-1', 'coiffure-invites-2',
@@ -181,7 +181,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage jour',
                 description: 'Explication et démonstration des étapes sur un côté du visage, reproduction par le participant sur l\'autre côté à chaque étape.',
                 duration: 60,
-                price: 30,
+                price: 35,
                 option: null,
                 pictures: [
                     'cours1', 'cours1', 'cours1', 'cours1',
@@ -193,7 +193,7 @@ export const PRESTATIONS = [
                 version: 'Maquillage soirée',
                 description: 'Explication et démonstration des étapes sur un côté du visage, reproduction par le participant sur l\'autre côté à chaque étape.',
                 duration: 75,
-                price: 35,
+                price: 40,
                 option: null,
                 pictures: [
                     'cours2', 'cours2', 'cours2', 'cours2',

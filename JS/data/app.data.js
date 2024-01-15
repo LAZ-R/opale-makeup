@@ -1,3 +1,3 @@
 export const APP_NAME = "Opale Makeup"
-export const APP_VERSION_NUMBER = '0.0.5';
-// v 0.0.5 : Descriptions + esquisse version desktop (page accueil)
+export const APP_VERSION_NUMBER = '0.0.6';
+// v 0.0.6 : Modif tarifs + suppression duration
