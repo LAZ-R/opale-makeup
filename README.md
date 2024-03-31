@@ -1,1 +1,1 @@
-# opale-makeup
+# Opale MakeUp PWA public website
