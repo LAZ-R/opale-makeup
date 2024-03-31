@@ -370,12 +370,12 @@ input:checked + .slider:before {
         padding: 0;
         margin-bottom: 30px;
 
-        &#maquillages-bloc-header { background-image: url("../medias/images/maquillages.jpg"); background-position: center; background-size: cover; }
-        &#mariages-bloc-header { background-image: url("../medias/images/mariages.jpg"); background-position: center; background-size: cover; }
-        &#mains-bloc-header { background-image: url("../medias/images/ongles.jpg"); background-position: center; background-size: cover; }
-        &#epilation-bloc-header { background-image: url("../medias/images/epilation.jpg"); background-position: center; background-size: cover; }
-        &#enfants-bloc-header { background-image: url("../medias/images/enfants.jpg"); background-position: center; background-size: cover; }
-        &#cours-bloc-header { background-image: url("../medias/images/cours.jpg"); background-position: center; background-size: cover; }
+        &#maquillages-bloc-header { background-image: url("../medias/images/maquillages.webp"); background-position: center; background-size: cover; }
+        &#mariages-bloc-header { background-image: url("../medias/images/mariages.webp"); background-position: center; background-size: cover; }
+        &#mains-bloc-header { background-image: url("../medias/images/ongles.webp"); background-position: center; background-size: cover; }
+        &#epilation-bloc-header { background-image: url("../medias/images/epilation.webp"); background-position: center; background-size: cover; }
+        &#enfants-bloc-header { background-image: url("../medias/images/enfants.webp"); background-position: center; background-size: cover; }
+        &#cours-bloc-header { background-image: url("../medias/images/cours.webp"); background-position: center; background-size: cover; }
 
         & .group-name-container {
             display: flex;
