@@ -1,12 +1,5 @@
 @import url("./variables.css");
-
-/* ==========================
- Rakesly
-===========================*/
-
-@font-face { font-family: "rakesly-ultra-light"; src: url("../medias/fonts/rakesly/01-rakesly-ultra-light.woff") format("woff"); font-display: swap; }
-@font-face { font-family: "rakesly-extra-light"; src: url("../medias/fonts/rakesly/02-rakesly-extra-light.woff") format("woff"); font-display: swap; }
-
+@import url("./fonts.css");
 
 :root {
     --magic-height: calc((82dvh - 7dvh) / 7);
