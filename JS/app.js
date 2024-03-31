@@ -612,11 +612,11 @@ document.getElementById('main').innerHTML = `
         <button onclick="onPictureClick(3, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel.webp');"></button>
         <button onclick="onPictureClick(3, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-2.webp');"></button>
         <button onclick="onPictureClick(3, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-3.webp');"></button>
-        <button onclick="onPictureClick(3, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-5.webp');"></button>
-        <button onclick="onPictureClick(3, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-6.webp');"></button>
-        <button onclick="onPictureClick(3, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-7.webp');"></button>
-        <button onclick="onPictureClick(3, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-8.webp');"></button>
-        <button onclick="onPictureClick(3, 8)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-9.webp');"></button>
+        <button onclick="onPictureClick(3, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-5.webp');"></button>
+        <button onclick="onPictureClick(3, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-6.webp');"></button>
+        <button onclick="onPictureClick(3, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-7.webp');"></button>
+        <button onclick="onPictureClick(3, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-8.webp');"></button>
+        <button onclick="onPictureClick(3, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/evenementiel-9.webp');"></button>
       </div>
     </div>
 
