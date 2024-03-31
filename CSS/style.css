@@ -407,7 +407,7 @@ input:checked + .slider:before {
     }
 }
 
-& .prestation-container {
+& .prestation-container { 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

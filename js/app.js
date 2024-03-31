@@ -6,7 +6,7 @@ import { setHTMLTitle } from "./utils/utils.js";
 let maquillagesClosed = 4;
 let maquillagesOpened = 0;
 
-let mariagesClosed = 8;
+let mariagesClosed = 8; 
 let mariagesOpened = 0;
 
 let mainsClosed = 11;
