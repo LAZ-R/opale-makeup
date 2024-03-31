@@ -2,7 +2,7 @@ var cacheName = 'OMUAPP';
 var filesToCache = [
   './',
   './index.html',
-  './css/style.css',
+  './CSS/style.css',
   './main.js'
 ];
 
@@ -25,4 +25,4 @@ self.addEventListener('fetch', function(e) {
   );
 });
 
-const version = '0.1.9';
+const version = '0.1.10';
