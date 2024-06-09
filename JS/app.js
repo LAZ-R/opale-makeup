@@ -66,8 +66,8 @@ const PRESTATIONS_PICTURES = [
 
   // Mains ------------------------------------------------
 
-  // XX - Presta 1
-  //['coiffure-invites-1', 'coiffure-invites-2', 'coiffure-invites-3', 'coiffure-invites-4', 'coiffure-invites-5'],
+  // 12 - Semi-permanent Uni
+  ['semi-permanent-uni', 'semi-permanent-uni-2', 'semi-permanent-uni-3', 'semi-permanent-uni-4'],
   
   // Epilation --------------------------------------------
 
@@ -76,10 +76,10 @@ const PRESTATIONS_PICTURES = [
   
   // Enfants ----------------------------------------------
 
-  // 12 - enfantsParticuliers
+  // 13 - enfantsParticuliers
   ['enfants', 'enfants-2', 'enfants-3', 'enfants-4', 'enfants-5', 'enfants-6', 'enfants-7', 'enfants-8'],
 
-  // 13 - enfantsEntreprise
+  // 14 - enfantsEntreprise
   ['enfants-9', 'enfants-10', 'enfants-11', 'enfants-12', 'enfants-13', 'enfants-14', 'enfants-15', 'enfants-16', 'enfants-17'],
   
   
@@ -882,6 +882,10 @@ document.getElementById('main').innerHTML = `
       </div>
 
       <div class="images-container">
+        <button onclick="onPictureClick(12, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/semi-permanent-uni.webp');"></button>
+        <button onclick="onPictureClick(12, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/semi-permanent-uni-2.webp');"></button>
+        <button onclick="onPictureClick(12, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/semi-permanent-uni-3.webp');"></button>
+        <button onclick="onPictureClick(12, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/semi-permanent-uni-4.webp');"></button>
       </div>
     </div>
 
@@ -1298,14 +1302,14 @@ document.getElementById('main').innerHTML = `
       </div>
 
       <div class="images-container">
-        <button onclick="onPictureClick(12, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants.webp');"></button>
-        <button onclick="onPictureClick(12, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-2.webp');"></button>
-        <button onclick="onPictureClick(12, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-3.webp');"></button>
-        <button onclick="onPictureClick(12, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-4.webp');"></button>
-        <button onclick="onPictureClick(12, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-5.webp');"></button>
-        <button onclick="onPictureClick(12, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-6.webp');"></button>
-        <button onclick="onPictureClick(12, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-7.webp');"></button>
-        <button onclick="onPictureClick(12, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-8.webp');"></button>
+        <button onclick="onPictureClick(13, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants.webp');"></button>
+        <button onclick="onPictureClick(13, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-2.webp');"></button>
+        <button onclick="onPictureClick(13, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-3.webp');"></button>
+        <button onclick="onPictureClick(13, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-4.webp');"></button>
+        <button onclick="onPictureClick(13, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-5.webp');"></button>
+        <button onclick="onPictureClick(13, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-6.webp');"></button>
+        <button onclick="onPictureClick(13, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-7.webp');"></button>
+        <button onclick="onPictureClick(13, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-8.webp');"></button>
       </div>
     </div>
 
@@ -1329,15 +1333,15 @@ document.getElementById('main').innerHTML = `
       </div>
 
       <div class="images-container">
-        <button onclick="onPictureClick(13, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-9.webp');"></button>
-        <button onclick="onPictureClick(13, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-10.webp');"></button>
-        <button onclick="onPictureClick(13, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-11.webp');"></button>
-        <button onclick="onPictureClick(13, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-12.webp');"></button>
-        <button onclick="onPictureClick(13, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-13.webp');"></button>
-        <button onclick="onPictureClick(13, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-14.webp');"></button>
-        <button onclick="onPictureClick(13, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-15.webp');"></button>
-        <button onclick="onPictureClick(13, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-16.webp');"></button>
-        <button onclick="onPictureClick(13, 8)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-17.webp');"></button>
+        <button onclick="onPictureClick(14, 0)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-9.webp');"></button>
+        <button onclick="onPictureClick(14, 1)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-10.webp');"></button>
+        <button onclick="onPictureClick(14, 2)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-11.webp');"></button>
+        <button onclick="onPictureClick(14, 3)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-12.webp');"></button>
+        <button onclick="onPictureClick(14, 4)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-13.webp');"></button>
+        <button onclick="onPictureClick(14, 5)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-14.webp');"></button>
+        <button onclick="onPictureClick(14, 6)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-15.webp');"></button>
+        <button onclick="onPictureClick(14, 7)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-16.webp');"></button>
+        <button onclick="onPictureClick(14, 8)" class="prestation-picture" style="background-image: url('./medias/images/prestations/enfants-17.webp');"></button>
       </div>
     </div>
 
