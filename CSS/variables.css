@@ -66,28 +66,28 @@
     ------------------------------------------------------------------------ */
 
     /* --------------------------- header height --------------------------- */
-    --phone-header-height: 11dvh;
-    --tablet-header-height: 11dvh;
-    --laptop-header-height: 11dvh;
-    --desktop-header-height: 11dvh;
+    --phone-header-height: 11svh;
+    --tablet-header-height: 11svh;
+    --laptop-header-height: 11svh;
+    --desktop-header-height: 11svh;
     /* --------------------------------------------------------------------- */
     --header-height: var(--phone-header-height);
     /* --------------------------------------------------------------------- */
 
     /* ---------------------------- main height ---------------------------- */
-    --phone-main-height: 82dvh;
-    --tablet-main-height: 82dvh;
-    --laptop-main-height: 82dvh;
-    --desktop-main-height: 82dvh;
+    --phone-main-height: 82svh;
+    --tablet-main-height: 82svh;
+    --laptop-main-height: 82svh;
+    --desktop-main-height: 82svh;
     /* --------------------------------------------------------------------- */
     --main-height: var(--phone-main-height);
     /* --------------------------------------------------------------------- */
 
     /* --------------------------- footer height --------------------------- */
-    --phone-footer-height: 7dvh;
-    --tablet-footer-height: 7dvh;
-    --laptop-footer-height: 7dvh;
-    --desktop-footer-height: 7dvh;
+    --phone-footer-height: 7svh;
+    --tablet-footer-height: 7svh;
+    --laptop-footer-height: 7svh;
+    --desktop-footer-height: 7svh;
     /* --------------------------------------------------------------------- */
     --footer-height: var(--phone-footer-height);
     /* --------------------------------------------------------------------- */
@@ -97,10 +97,10 @@
     ------------------------------------------------------------------------ */
 
     /* --- horizontal padding --- */
-    --phone-horizontal-padding: 6dvw;
-    --tablet-horizontal-padding: 7dvw;
-    --laptop-horizontal-padding: 10dvw;
-    --desktop-horizontal-padding: 16dvw;
+    --phone-horizontal-padding: 6svw;
+    --tablet-horizontal-padding: 7svw;
+    --laptop-horizontal-padding: 10svw;
+    --desktop-horizontal-padding: 16svw;
     /* --------------------------------------------------------------------- */
     --horizontal-padding : var(--phone-horizontal-padding);
     /* --------------------------------------------------------------------- */

@@ -2,7 +2,7 @@
 @import url("./fonts.css");
 
 :root {
-    --magic-height: calc((82dvh - 7dvh) / 7);
+    --magic-height: calc((82svh - 7svh) / 7);
     --border-radius: 500px;
     --gap: 5px;
     --presta-height: 250px;
@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 100dvh; height: 100dvh; max-height: 100dvh;
+    min-height: 100svh; height: 100svh; max-height: 100svh;
     padding: 0;
     margin: 0;
     background-color: var(--html-background-color);
@@ -67,7 +67,7 @@ body {
     padding: 0;
     overflow-y: scroll;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 767px) {
         padding: 0 calc(var(--horizontal-padding) * 2);  
     }
 }
@@ -305,7 +305,7 @@ input:checked + .slider:before {
             color: white;
         }
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 767px) {
             padding: 0 calc(var(--horizontal-padding) / 3);  
         }
     }
@@ -328,7 +328,7 @@ input:checked + .slider:before {
             margin-bottom: 0;
         }
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 767px) {
             padding: 0 calc(var(--horizontal-padding) / 3);  
         }
     }
@@ -393,7 +393,7 @@ input:checked + .slider:before {
                 transition: transform .2s linear;
             }
 
-            @media screen and (min-width: 600px) {
+            @media screen and (min-width: 767px) {
                 padding: 0 calc(var(--horizontal-padding) / 3);  
             }
         }
@@ -419,7 +419,7 @@ input:checked + .slider:before {
         min-height: var(--presta-height); height: var(--presta-height);
     }
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 767px) {
         width: 100%;
     }
 
@@ -455,12 +455,12 @@ input:checked + .slider:before {
                 }
             }
 
-            @media screen and (min-width: 600px) {
+            @media screen and (min-width: 767px) {
                 padding-right: 40px;  
             }
         }
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 767px) {
             padding: 0 calc(var(--horizontal-padding) / 3);  
         }
 
@@ -489,7 +489,7 @@ input:checked + .slider:before {
         min-height: 44px; height: 44px; max-height: 44px;
         margin-bottom: 10px;
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 767px) {
             padding: 5px calc(var(--horizontal-padding) / 3);  
         }
     }
@@ -535,7 +535,7 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 7dvh; height: 7dvh; max-height: 7dvh;
+    min-height: 7svh; height: 7svh; max-height: 7svh;
     min-width: 100%;
     margin: 0;
     background-color: transparent;
@@ -624,7 +624,7 @@ input:checked + .slider:before {
         padding: var(--horizontal-padding);
         background-color: transparent;
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 767px) {
             padding: calc(var(--horizontal-padding) / 3);  
         }
 
@@ -638,30 +638,36 @@ input:checked + .slider:before {
 }
 
 .buttons-container {
-    --button-size : calc((100dvw - (var(--horizontal-padding) * 5)) / 5);
+    --button-size : if(
+        /* MOBILE */ media(max-width : 766px): calc((100dvw - (var(--horizontal-padding) * 5)) / 5);
+        /* TABLET */ media(max-width : 1279px): calc((100dvw - (var(--horizontal-padding) * 5)) / 5);
+        /* LAPTOP */ media(max-width : 1919px): calc((100dvw - (var(--horizontal-padding) * 5)) / 5);
+        /* DESKTOP */ else: calc((100dvw - (var(--horizontal-padding) * 5)) / 5);
+    );
+    
 
     position: absolute;
-    top: calc(0px - (var(--button-size) / 2));
+    top: -3.5svh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: var(--button-size);
+    height: var(--button-size); max-height: 7svh;
     padding: 0 var(--horizontal-padding);
 
     & .footer-button {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-width: var(--button-size); width: var(--button-size); max-width: var(--button-size);
-        min-height: var(--button-size); height: var(--button-size); max-height: var(--button-size);
+        min-width: 7svh; width: var(--button-size); max-width: 7svh;
+        min-height: 7svh; height: var(--button-size); max-height: 7svh;
         border-radius: 500px;
         /* border: 3px solid white; */
         background-color: var(--palette-3);
         box-shadow: var(--box-shadow-strong);
     
         & img {
-            height: calc(var(--button-size) / 1.75);
+            height: 66%;
             filter: var(--filter-white);
         }
     
